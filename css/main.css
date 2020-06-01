@@ -5,8 +5,11 @@ body{
     margin: 0;
     padding: 0;
 }
+#header{
+    height: 100vh;
+    background: url(../img/header.jpg) no-repeat center center/cover;
+}
 #first{
-  height: 100vh;
   background: rgb(88, 88, 214);
 }
 .header,.footer{
@@ -169,9 +172,7 @@ h2{
 .image_first{
     margin-top: 40px;
 }
-.offer__btn_sections{
-    color: black;
-}
+
 .sections-yoga,.sections-box,.sections-football{
     margin-top: 63px;
 }
