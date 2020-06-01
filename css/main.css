@@ -202,3 +202,11 @@ h2{
     height: 272px;
 }
 
+/*Trainer1*/
+.name {
+    font-size: 18px;
+}
+.girl__name {
+    font-size: 18px;
+    font-weight: 700;
+}
