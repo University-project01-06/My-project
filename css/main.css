@@ -1,0 +1,151 @@
+html{
+    font-size: 15px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+  height: 100vh;
+  background: url(../img/header.jpg) no-repeat center top / cover;
+}
+.header,.footer{
+    background: black;
+}
+li{
+    display: block;
+}
+li a{
+    color: white;
+    float: left;
+    margin-right: 17px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-top: 11px;
+}
+li a:hover{
+    color: red;
+    text-decoration: none;
+}
+.btn{
+    display: block;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 125px;
+    float: right;
+    padding: 5px 10px 5px 10px;
+    margin-top: 17px;
+}
+.btn:hover{
+    background-color: white;
+    transition: all 0.5s ease;
+    color: black;
+    border: 2px solid red;
+}
+h1{
+    font-size: 43px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    margin-top: 60px;
+    color: white;
+}
+.offer__paragraph{
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: white;
+}
+.offer__paragraph_top{
+margin-top: 20px;
+}
+.offer__btn{
+    color: white;
+    border: 2px solid red;
+    width: 180px;
+    height: 55px;
+    padding: 12px 0px 12px 0px;
+    margin-left: 135px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+}
+.offer__btn:hover{
+    background-color: #FDE1E1;
+    transition: all 0.5s ease;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* Footer */
+.footer-paragraph{
+color: white;
+margin-top: 25px;
+}
+.fa-telegram{
+    color: #9c9cff;
+    margin-top: 21px;
+}
+.fa-facebook,.fa-vk{
+    color: white;
+    margin-left: 20px;
+    margin-top: 21px;
+}
+
+/* Slider style */
+.slider{
+    position: relative;
+    padding: 0px 50px 0px 50px;
+    margin-top: 80px;
+}
+.slider__photo{
+    width: 440px;
+}
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-top: -40px;
+}
+.slick-next{
+    right: 0;
+    background: url(../img/next.svg);
+}
+.slick-prev{
+    left: 0;
+    background: url(../img/back.svg);
+}
+.slick-track,.slick-dots{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+button:focus {
+    outline:none;
+}
+.slick-dots li{
+    list-style: none;
+    margin-right: 5px;
+}
+.slick-dots button{
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px dashed black;
+    background: none;
+}
+.slick-active button{
+    background-color: white;   
+}
+.slick-dots{
+    padding: 0px;
+}
