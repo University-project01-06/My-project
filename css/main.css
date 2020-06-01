@@ -7,7 +7,7 @@ body{
 }
 #header{
   height: 100vh;
-  background: url(../img/header.jpg) no-repeat center top / cover;
+  background: rgb(88, 88, 214);
 }
 .header,.footer{
     background: black;
@@ -47,6 +47,10 @@ h1{
     font-size: 43px;
     font-family: 'Noto Sans';
     font-weight: 700;
+    margin-top: 60px;
+    color: white;
+}
+h2 {
     margin-top: 60px;
     color: white;
 }
@@ -148,4 +152,25 @@ button:focus {
 }
 .slick-dots{
     padding: 0px;
+}
+
+
+/*JOGA*/
+.joga {
+    color: #fff;
+}
+.adress {
+    font-size: 14px;
+    color: white;
+}
+.price {
+    font-size: 25px;
+    color: #fff;
+}
+#section__color {
+    background: rgb(88, 88, 214);
+}
+.photo {
+    width: 341px;
+    height: 272px;
 }
