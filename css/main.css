@@ -202,6 +202,7 @@ h2{
     height: 272px;
 }
 
+
 /* Contacts */
 #contacts{
     background: rgb(88, 88, 214); 
@@ -233,4 +234,27 @@ h2{
 .contacts-info__questions{
     margin-top: 63px;
     padding-top: 28px;
+}
+
+
+/*Trainer1*/
+.name{
+    font-size: 18px;
+}
+.girl__name {
+    font-size: 18px;
+    font-weight: 700;
+}
+/*Вход*/
+.form {
+    background-color: white;
+}
+/*Выйти из Аккаунта*/
+.menu {
+    background: palevioletred;
+}
+.cource {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 30px;
 }
