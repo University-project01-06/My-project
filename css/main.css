@@ -210,3 +210,16 @@ h2{
     font-size: 18px;
     font-weight: 700;
 }
+/*Вход*/
+.form {
+    background-color: white;
+}
+/*Выйти из Аккаунта*/
+.menu {
+    background: palevioletred;
+}
+.cource {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 30px;
+}
