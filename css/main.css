@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
 }
-#header{
+#first{
   height: 100vh;
   background: url(../img/header.jpg) no-repeat center top / cover;
 }
@@ -148,4 +148,33 @@ button:focus {
 }
 .slick-dots{
     padding: 0px;
+}
+
+
+
+/* Sections */
+#sections{
+    background: rgb(88, 88, 214);
+}
+h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Noto-Sans';
+    margin:0px 0px 0px 0px;
+}
+.image_first{
+    margin-top: 40px;
+}
+.offer__btn_sections{
+    color: black;
+}
+.sections-yoga,.sections-box,.sections-football{
+    margin-top: 63px;
+}
+.football{
+    margin-bottom: 63px;
+}
+.first-heading{
+    margin-top: 63px;
 }
