@@ -194,7 +194,7 @@ h2{
     font-size: 25px;
     color: #fff;
 }
-#section__color {
+#section__color{
     background: rgb(88, 88, 214);
 }
 .photo {
@@ -202,3 +202,35 @@ h2{
     height: 272px;
 }
 
+/* Contacts */
+#contacts{
+    background: rgb(88, 88, 214); 
+}
+.heading-contacts,.form-contacts{
+    margin-top: 63px;
+}
+.offer__btn_contacts{
+    margin: 63px 0px 63px 0px;
+    width: 100%;
+}
+#emails{
+    width: 100%;
+    height: 48px;
+    border-color: black;
+    border-radius: 12px;
+}
+.textarea-contacts{
+    margin: 63px 0px 0px 0px;
+    width: 100%;
+    border-color: black;
+    border-radius: 10px;
+    height: 290px;
+}
+.contacts-info{
+    margin-top: 63px;
+    padding-top: 50px;
+}
+.contacts-info__questions{
+    margin-top: 63px;
+    padding-top: 28px;
+}
