@@ -381,8 +381,19 @@ h2{
 
 
 /* From sign in */
-.form{
+.form__sign{
     margin: 100px 0px 100px 0px;
     height: 380px;
     padding-top: 25px;
+    background: white;
+}
+
+
+
+/* Form registration */
+.form-registration{
+    margin: 100px 0px 100px 0px;
+    height: 465px;
+    padding-top: 25px;
+    background: white;
 }
