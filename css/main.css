@@ -161,6 +161,18 @@ button:focus {
 }
 
 
+/* Sections page */
+.section__first,.section__second{
+    margin-top: 30px;
+}
+.offer__btn_sectionsfootball{
+    margin-bottom: 63px;
+}
+.section__third{
+    margin-top: 80px;
+}
+
+
 /* Yoga info */
 #sections,#about-us,#yoga{
     background: rgb(88, 88, 214);
