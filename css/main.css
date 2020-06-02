@@ -264,6 +264,25 @@ h2{
 }
 
 
+
+/* About_us */
+.comments-about,.answer{
+    margin: 63px 0px 0px 0px;
+}
+.first-girl,.quote-right,.first-girl__comment,.second-boy,.second-boy__comment{
+    margin: 0px 0px 0px 50px;
+}
+.first-girl__name,.second-boy__name{
+    margin: 0px;
+}
+.quote-left{
+    margin-left: 300px;
+}
+.offer__btn_about{
+    color: black;
+    margin: 63px 0px 63px 0px;
+    width: 100%;
+}
 /*Trainer1*/
 .name{
     font-size: 18px;
