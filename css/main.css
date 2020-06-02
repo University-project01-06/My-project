@@ -247,6 +247,12 @@ h2{
     font-size: 18px;
     font-weight: 700;
 }
+.photo-trainer,.info-trainer{
+    margin: 50% 0px 50% 0px;
+}
+.info-trainer{
+    margin: 40% 0px 0px 40px;
+}
 /*Вход*/
 .form {
     background-color: white;
