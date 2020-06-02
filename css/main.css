@@ -169,9 +169,7 @@ h2{
     font-family: 'Noto-Sans';
     margin:100px 0px 0px 0px;
 }
-.work__point{
-    
-}
+
 .trainer-yoga:hover .overlay{
     opacity: 1;
   }
@@ -194,7 +192,7 @@ h2{
     display: block;
     color: white;
     text-decoration: none;
-    
+
 }
 .image_first{
     margin-top: 40px;
