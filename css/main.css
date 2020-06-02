@@ -326,7 +326,7 @@ h2{
 /*Выйти из Аккаунта*/
 .menu__double {
     background: rgb(176, 166, 177);
-    margin-top: 50px;
+    margin-top: 63px;
     border: 7px solid black;
     border-radius: 3px;
 }
@@ -403,4 +403,13 @@ h2{
 /* Anketa */
 .form-control{
 width: 37%;
+}
+
+
+/* Edit profile */
+.btn-primary{
+    margin:40px 0px 63px 0px;
+}
+.form-group:nth-child(1){
+margin-top: 63px;
 }
