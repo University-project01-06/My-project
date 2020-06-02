@@ -305,20 +305,9 @@ h2{
     margin: 63px 0px 63px 0px;
     width: 100%;
 }
-/*Trainer1*/
-.name{
-    font-size: 18px;
-}
-.name__girl {
-    font-size: 18px;
-    font-weight: 700;
-}
-.photo-trainer,.info-trainer{
-    margin: 50% 0px 50% 0px;
-}
-.info-trainer{
-    margin: 40% 0px 0px 40px;
-}
+
+
+
 /*Вход*/
 .form {
     background-color: white;
@@ -416,4 +405,24 @@ margin-top: 63px;
 }
 .form-editprofile{
     margin-top: 63px;
+}
+
+
+
+/* portfolio */
+.info-trainer__boxer,.info-trainer__football{
+    margin: 32% 0px 40% 0px;
+}
+.name{
+    font-size: 18px;
+}
+.name__girl {
+    font-size: 18px;
+    font-weight: 700;
+}
+.photo-trainer{
+    margin: 50% 0px 50% 0px;
+}
+.info-trainer{
+    margin: 40% 0px 0px 40px;
 }
