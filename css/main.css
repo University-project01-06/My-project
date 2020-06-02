@@ -158,8 +158,8 @@ button:focus {
 }
 
 
-/* Sections */
-#sections,#about-us{
+/* Yoga info */
+#sections,#about-us,#yoga{
     background: rgb(88, 88, 214);
 }
 h2{
@@ -167,13 +167,40 @@ h2{
     font-size: 25px;
     font-weight: 700;
     font-family: 'Noto-Sans';
-    margin:0px 0px 0px 0px;
+    margin:100px 0px 0px 0px;
+}
+.work__point{
+    
+}
+.trainer-yoga:hover .overlay{
+    opacity: 1;
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    width: 75%;
+    height: 85%;
+    color: white;
+    padding: 126px 0px 0px 0px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.6s ease;
+  }
+.over__link{
+    display: block;
+    color: white;
+    text-decoration: none;
+    
 }
 .image_first{
     margin-top: 40px;
 }
 
-.sections-yoga,.sections-box,.sections-football,.first-heading,.football,.foto__about{
+.sections-yoga,.sections-box,.sections-football,.first-heading,.football,.foto__about,.trainer{
     margin-top: 63px;
 }
 .heading__about{
@@ -192,9 +219,6 @@ h2{
 .price {
     font-size: 25px;
     color: #fff;
-}
-#section__color{
-    background: rgb(88, 88, 214);
 }
 .photo {
     width: 341px;
