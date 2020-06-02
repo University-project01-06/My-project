@@ -173,7 +173,7 @@ button:focus {
 }
 
 
-/* Yoga info */
+/* Yoga page */
 #sections,#about-us,#yoga{
     background: rgb(88, 88, 214);
 }
@@ -194,20 +194,20 @@ h2{
     left: 0;
     background: rgba(0,0,0,0.6);
     width: 75%;
-    height: 85%;
+    height: 87%;
     color: white;
     padding: 126px 0px 0px 0px;
-    box-sizing: border-box;
     display: block;
     text-align: center;
     opacity: 0;
     transition: all 0.6s ease;
   }
-.over__link{
+.overlay__link{
     display: block;
     color: white;
-    text-decoration: none;
-
+}
+.overlay__link:hover{
+    color: white;
 }
 .image_first{
     margin-top: 40px;
@@ -220,6 +220,14 @@ h2{
     margin-top: 63px;
     padding-top: 50px;
 }
+.trainer-yoga__photo{
+    width: 73%;
+    padding-top: 20px;
+    margin-bottom: 63px;
+}
+
+
+
 
 /*JOGA*/
 .joga {
