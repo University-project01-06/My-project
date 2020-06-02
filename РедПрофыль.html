@@ -73,16 +73,24 @@
                         <ul class="menu__double">
                             <div class="row">
                                 <div class="col-xl-2">
-                                    <li class="cource">Мої курси</li>
+                                    <li>
+                                        <a class="cource" href="">Мої курси</a>
+                                    </li>
                                 </div>
                                 <div class="col-xl-2">
-                                    <li class="cource">Календар</li>
+                                    <li>
+                                        <a class="cource" href="Календарь.html">Календар</a>
+                                    </li>
                                 </div>
                                 <div class="col-xl-4">
-                                    <li class="cource">Редагувати профіль</li>
+                                    <li>
+                                        <a  class="cource" href="РедПрофыль.html">Редагувати профіль</a>
+                                    </li>
                                 </div>
                                 <div class="col-xl-3">
-                                    <li class="cource">Вийти з аккаунта</li>
+                                    <li>
+                                        <a class="cource" href="Выйти из аккаунта.html">Вийти з аккаунта</a>
+                                    </li>
                                 </div>
                             </div>
                         </ul>
@@ -90,31 +98,100 @@
                 </div>
                 <div class="row">
                     <div class="col-xl-10 offset-xl-1">
-                <form>
-                    <div class="form-group">
-                        <label for="Name">Ваше Ім'я</label>
-                        <input type="text" class="form-control" id="Name">                        
+                <form class="form-editprofile">
+                    <div class="row">
+                        <div class="col-xl-4 offset-xl-1">
+                            <div class="form-group">
+                                <label for="Name">Ваше Ім'я</label>
+                                <input type="text" class="form-control" id="Name">                        
+                            </div>                                        
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="InputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 offset-xl-1">                   
+                            <div class="right-part">
+                                Ваш пол:
+                                <label for="id_gender_male"><input type="radio" name="gender" value="male" id="id_gender_male"> Мужской</label>
+                                <label for="id_gender_female"><input type="radio" name="gender" value="female" id="id_gender_female" checked="checked"> Женский</label><br><br>
+
+                                <label for="id_month">Місяць</label> , <label for="id_day">день</label> , <label for="id_year">рік</label> нарождения:<br>
+                                <select name="month" id="id_month">
+                                    <option value="Январь" selected="selected">Січень</option>
+                                    <option value="Январь" selected="selected">Лютий</option>
+                                    <option value="Январь" selected="selected">Березень</option>
+                                    <option value="Январь" selected="selected">Квітень</option>
+                                    <option value="Январь" selected="selected">Травень</option>
+                                    <option value="Январь" selected="selected">Червень</option>
+                                    <option value="Январь" selected="selected">Липень</option>
+                                    <option value="Январь" selected="selected">Серпень</option>
+                                    <option value="Январь" selected="selected">Вересень</option>
+                                    <option value="Январь" selected="selected">Жовтень</option>
+                                    <option value="Январь" selected="selected">Листопад</option>
+                                    <option value="Январь" selected="selected">Грудень</option>
+                                </select>
+                                <select name="day" id="id_day">
+                                    <option value="1" selected="selected">1</option>
+                                    <option value="2" selected="selected">2</option>
+                                    <option value="3" selected="selected">3</option>
+                                    <option value="4" selected="selected">4</option>
+                                    <option value="5" selected="selected">5</option>
+                                    <option value="6" selected="selected">6</option>
+                                    <option value="7" selected="selected">7</option>
+                                    <option value="8" selected="selected">8</option>
+                                    <option value="9" selected="selected">9</option>
+                                    <option value="10" selected="selected">10</option>
+                                    <option value="11" selected="selected">11</option>
+                                    <option value="12" selected="selected">12</option>
+                                    <option value="13" selected="selected">13</option>
+                                    <option value="14" selected="selected">14</option>
+                                    <option value="15" selected="selected">15</option>
+                                    <option value="16" selected="selected">16</option>
+                                    <option value="17" selected="selected">17</option>
+                                    <option value="18" selected="selected">18</option>
+                                    <option value="19" selected="selected">19</option>
+                                    <option value="20" selected="selected">20</option>
+                                    <option value="21" selected="selected">21</option>
+                                    <option value="22" selected="selected">22</option>
+                                    <option value="23" selected="selected">23</option>
+                                    <option value="24" selected="selected">24</option>
+                                    <option value="25" selected="selected">25</option>
+                                    <option value="26" selected="selected">26</option>
+                                    <option value="27" selected="selected">27</option>
+                                    <option value="28" selected="selected">28</option>
+                                    <option value="29" selected="selected">29</option>
+                                    <option value="29" selected="selected">30</option>
+                                    <option value="29" selected="selected">31</option>
+                                </select>
+                                <select name="year" id="id_year">
+                                    <option value="1990" selected="selected">1975</option>
+                                    <option value="1990" selected="selected">1976</option>
+                                    <option value="1990" selected="selected">1977</option>
+                                    <option value="1990" selected="selected">1978</option>
+                                    <option value="1990" selected="selected">1979</option>
+                                    <option value="1990" selected="selected">1980</option>
+                                </select><br><br>
+                                <div class="form-group">
+                                    <label for="Photo">Завантажте Ваше фото</label>
+                                    <input name="picture" type="file">
+                                    <input type="submit" value="Завантажити">                        
+                                </div>
+                            </div> 
+                        </div>
                     </div>                                        
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                      </div>
-                      
-                    <div class="form-group">
-                        <label for="InputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>                                        
-                    <div class="form-group">
-                        <label for="Photo">Завантажте Ваше фото</label>
-                        <input name="picture" type="file" />
-                        <input type="submit" value="Завантажити" />                        
-                    </div>                    
-                    
+                        
                     <button type="submit" class="btn btn-primary">Увійти</button>
                   </form>
-                </div></div>      
-            </div>  
+                </div>
+            </div>      
+        </div>  
     </header>
     <footer id="footer">
         <div class="footer">
