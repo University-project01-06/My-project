@@ -56,6 +56,9 @@ h1{
 h2 {
     margin-top: 60px;
     color: white;
+    font-size: 37px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
 }
 .offer__paragraph{
     margin-top: 80px;
@@ -280,42 +283,57 @@ h2{
     background-color: white;
 }
 /*Выйти из Аккаунта*/
-.menu {
-    background: palevioletred;
+.menu__double {
+    background: rgb(176, 166, 177);
+    margin-top: 50px;
+    border: 7px solid black;
+    border-radius: 3px;
 }
 .cource {
+    font-size: 19px;
     border: 1px solid black;
     border-radius: 20px;
-    width: 30px;
+    font-weight: 500;
+    padding-left: 10px;
+    margin: 5px;
+    background-color: white;
 }
-
-
-/* About-us */
-.first-girl,.quote-right,.second-boy{
-margin-left: 50px;
+.section__wrapper {
+    margin-top: 80px;
 }
-.first-girl__comment,.second-boy__comment{
-    margin:0px 0px 0px 50px;
+.button__wrapper {
+    margin-top: 30px;
+    padding-bottom: 350px;
 }
-.first-girl__name,.second-boy__name{
-    margin: 0px;
+.button__negative {
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid blue;
+    background-color:blue;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 35px;
 }
-.fa-quote-left{
-    margin-left: 310px;
+.button__positive {
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 35px;
 }
-.comments-about{
-    margin-top: 63px;
+.button__negative:hover {
+    color: yellow;
+    transition: .5s;
+    text-decoration: none;
+    box-shadow: 0 0 29px rgba(14, 14, 14, 0.4);
+    border-radius: 5px;
 }
-.textarea-contacts_about{
-    height: 150px;
-    resize: none;
-    overflow:scroll;
-}
-.answer{
-    margin: 63px 0px 20px 41%;
-}
-.offer__btn_about{
-    margin: 30px 0px 63px 0px;
-    width: 100%;
-    color: black;
+.button__positive:hover {
+    color: yellow;
+    transition: .9s;
+    text-decoration: none;
+    box-shadow: 0 0 29px rgba(14, 14, 14, 0.4);
+    border-radius: 5px;
 }
