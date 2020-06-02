@@ -53,6 +53,9 @@ h1{
 h2 {
     margin-top: 60px;
     color: white;
+    font-size: 37px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
 }
 .offer__paragraph{
     margin-top: 80px;
@@ -215,11 +218,56 @@ h2{
     background-color: white;
 }
 /*Выйти из Аккаунта*/
-.menu {
-    background: palevioletred;
+.menu__double {
+    background: rgb(176, 166, 177);
+    margin-top: 50px;
+    border: 7px solid black;
+    border-radius: 3px;
 }
 .cource {
+    font-size: 19px;
     border: 1px solid black;
     border-radius: 20px;
-    width: 30px;
+    font-weight: 500;
+    padding-left: 10px;
+    margin: 5px;
+    background-color: white;
+}
+.section__wrapper {
+    margin-top: 80px;
+}
+.button__wrapper {
+    margin-top: 30px;
+}
+.button__negative {
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid blue;
+    background-color:blue;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 35px;
+}
+.button__positive {
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 35px;
+}
+.button__negative:hover {
+    color: yellow;
+    transition: .5s;
+    text-decoration: none;
+    box-shadow: 0 0 29px rgba(14, 14, 14, 0.4);
+    border-radius: 5px;
+}
+.button__positive:hover {
+    color: yellow;
+    transition: .9s;
+    text-decoration: none;
+    box-shadow: 0 0 29px rgba(14, 14, 14, 0.4);
+    border-radius: 5px;
 }
