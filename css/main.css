@@ -159,7 +159,7 @@ button:focus {
 
 
 /* Sections */
-#sections{
+#sections,#about-us{
     background: rgb(88, 88, 214);
 }
 h2{
@@ -173,14 +173,12 @@ h2{
     margin-top: 40px;
 }
 
-.sections-yoga,.sections-box,.sections-football{
+.sections-yoga,.sections-box,.sections-football,.first-heading,.football,.foto__about{
     margin-top: 63px;
 }
-.football{
-    margin-bottom: 63px;
-}
-.first-heading{
+.heading__about{
     margin-top: 63px;
+    padding-top: 50px;
 }
 
 /*JOGA*/
@@ -242,7 +240,7 @@ h2{
 .name{
     font-size: 18px;
 }
-.girl__name {
+.name__girl {
     font-size: 18px;
     font-weight: 700;
 }
@@ -258,4 +256,28 @@ h2{
     border: 1px solid black;
     border-radius: 20px;
     width: 30px;
+}
+
+
+/* About-us */
+.first-girl,.quote-right,.second-boy{
+margin-left: 50px;
+}
+.first-girl__comment,.second-boy__comment{
+    margin:0px 0px 0px 50px;
+}
+.first-girl__name,.second-boy__name{
+    margin: 0px;
+}
+.fa-quote-left{
+    margin-left: 310px;
+}
+.comments-about{
+    margin-top: 63px;
+}
+.textarea-contacts_about{
+    height: 150px;
+}
+.answer{
+    margin: 63px 0px 20px 41%;
 }
