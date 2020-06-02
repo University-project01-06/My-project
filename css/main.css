@@ -380,7 +380,7 @@ h2{
 /* Form registration */
 .form-registration{
     margin: 100px 0px 100px 0px;
-    height: 465px;
+    height: 493px;
     padding-top: 25px;
     background: white;
 }
@@ -425,4 +425,15 @@ margin-top: 63px;
 }
 .info-trainer{
     margin: 40% 0px 0px 40px;
+}
+
+
+
+/* Submenu */
+.submenu{
+    height: 150px;
+    position: relative;
+}
+.submenu__link{
+    color: white;
 }
