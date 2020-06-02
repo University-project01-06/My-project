@@ -378,3 +378,11 @@ h2{
     box-shadow: 0 0 29px rgba(14, 14, 14, 0.4);
     border-radius: 5px;
 }
+
+
+/* From sign in */
+.form{
+    margin: 63px 0px 63px 0px;
+    height: 380px;
+    padding-top: 25px;
+}
