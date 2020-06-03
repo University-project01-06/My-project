@@ -429,17 +429,6 @@ margin-top: 63px;
 
 
 
-/* Submenu */
-.submenu{
-    height: 150px;
-    position: relative;
-}
-.submenu__link{
-    color: white;
-}
-
-
-
 /* Drop-menu */
 .menu ul,.menu li{
 	list-style:none;
@@ -491,10 +480,26 @@ margin-top: 63px;
 .menu li:hover a.link{
 	background: #463935;
 }
+.myprofile{
+    color: red;
+}
 
 
 
 /* Kalendar */
 .kalendar{
     margin:63px 0px 63px 0px ;
+}
+
+
+
+/* Button my section page */
+.btn__btn-primary_box{
+    float: left;
+}
+.btn-primary_box,.btn-primary_tennis{
+    margin-top: 20px;
+}
+.btn-primary__football{
+    margin-top: 0px;
 }
