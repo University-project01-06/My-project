@@ -327,7 +327,7 @@ h2{
     margin: 5px;
 }
 .section__wrapper {
-    margin-top: 80px;
+    margin-top: 169px;
 }
 .button__wrapper {
     margin-top: 30px;
@@ -404,7 +404,7 @@ width: 37%;
 margin-top: 63px;
 }
 .form-editprofile{
-    margin-top: 63px;
+    margin:150px 0px 193px 0px
 }
 
 
@@ -436,4 +436,65 @@ margin-top: 63px;
 }
 .submenu__link{
     color: white;
+}
+
+
+
+/* Drop-menu */
+.menu ul,.menu li{
+	list-style:none;
+}
+ 
+.menu{ 
+	position:relative; /* (!) */
+	z-index:3;
+    height:20px;
+    padding-top: 12px;
+}
+ 
+.menu li.menu__list{
+	float:left; /* (!) */
+	display:block; /* (!) */
+	margin:0 5px;
+}
+.submenu{
+    height: 157px;
+    width: 174px;
+}
+.submenu__link{
+	color: white;
+	text-decoration:none;
+}
+ 
+.menu ul.submenu{ 
+	background: grey;
+	padding:5px;
+	position:absolute; 
+	top:44px; 
+	left:-9999px; 
+	z-index:3;
+	border-top: 1px solid #3A2E2B;
+	-moz-box-shadow: 0px 3px 7px #251d1b;
+	-webkit-box-shadow: 0px 3px 7px #251d1b;
+	box-shadow: 0px 3px 7px #251d1b;
+}
+ 
+.menu li:hover ul.submenu{
+	left:auto; 
+}
+ 
+.menu li a.link{
+	display:block;
+	padding:5px;
+}
+ 
+.menu li:hover a.link{
+	background: #463935;
+}
+
+
+
+/* Kalendar */
+.kalendar{
+    margin:63px 0px 63px 0px ;
 }
